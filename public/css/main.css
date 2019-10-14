@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.no-shadow{
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.01);
+    padding: 0 20px;
+    position: fixed;
+    transition: background linear 0.25s;
+}
+
+.normal-nav{
+    background: rgb(5, 150, 82);
+    padding: 0 20px;
+    position: fixed;
+    transition: background linear 0.25s;
+    z-index: 10000;
+}
+
+header{
+    width: 100%;
+	height: 100vh;
+    background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(../images/first_background.png) center no-repeat;
+    background-size: cover;
+	position: relative;
+    overflow: hidden;
+
+}
+
+.navbar-fixed ul{
+    margin-right: 60px;
+}
+
+.navbar-fixed ul li{
+    font-family: 'Russo One', sans-serif;
+}
+
+.brand-logo{
+    margin-left: 60px;
+}
+
+.brand-logo img{
+    height: 25%;
+    width: 25%;
+}
+
+.mobile-icon{
+    font-size: 3rem !important;
+    color: #52d3a6;
+}
+
+.sidenav{
+    background: rgba(82, 211, 166, 0.55);
+}
+
+.topic{
+    padding-top: 60px;
+}
+
+
